@@ -3,7 +3,7 @@
     {
       "name": "Does not use printf",
       "setup": "",
-      "run": "grep -F printf main.cpp || echo \"None\"",
+      "run": "grep -F printf src/main.cpp || echo \"None\"",
       "input": "",
       "output": "None",
       "comparison": "included",
@@ -13,7 +13,7 @@
     {
       "name": "No scanf",
       "setup": "",
-      "run": "grep -F scanf main.cpp || echo \"None\"",
+      "run": "grep -F scanf src/main.cpp || echo \"None\"",
       "input": "",
       "output": "None",
       "comparison": "included",
@@ -23,7 +23,7 @@
     {
       "name": "No stdio.h",
       "setup": "",
-      "run": "grep -F stdio.h main.cpp || echo \"None\"",
+      "run": "grep -F stdio.h src/main.cpp || echo \"None\"",
       "input": "",
       "output": "None",
       "comparison": "included",
