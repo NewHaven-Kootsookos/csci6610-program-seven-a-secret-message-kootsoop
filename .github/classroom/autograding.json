@@ -32,7 +32,7 @@
     },
     {
       "name": "Decodes correctly",
-      "setup": "g++ src/main.cpp -o program-seven",
+      "setup": "g++ src/*.cpp -o program-seven",
       "run": "./program-seven",
       "input": "",
       "output": "Amateurs should never try to invent a crypto system -- it just will \r\nnot be secure.   We must presume that an adversary has learned about \r\nthe system.   So a message must be secure even if the method by which \r\nit was produced is well known.",
